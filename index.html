@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷表 - 葉秋玄</title>
+    <style>
+        body {
+            font-family: 'MingLiU', 'PMingLiU', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .resume-container {
+            width: 850px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex; 
+        }
+
+        /* 左欄 (輔助資訊) */
+        .left-column {
+            width: 30%;
+            background-color: #e8f5e9; 
+            padding: 30px 20px;
+            color: #388e3c; 
+        }
+
+        /* 右欄 (主要內容) */
+        .right-column {
+            width: 70%;
+            padding: 30px 40px;
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #4caf50; 
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #2e7d32;
+            font-size: 2.2em;
+        }
+        
+        /* 標題設定 */
+        h2 {
+            font-size: 1.3em;
+            color: #2e7d32;
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        /* 項目列表 */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 5px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+        ul li::before {
+            content: '•';
+            color: #4caf50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .item-header {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-style: italic;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+
+    <div class="left-column">
+        <h3>聯繫資訊</h3>
+        <p>電子郵件 (Email): thudiep733@gmail.com</p>
+
+        <h2>技能</h2>
+        <ul>
+            <li>**漢語 (Tiếng Trung):** B1 級 (能進行基礎溝通)。</li>
+            <li>**英語 (Tiếng Anh):** 基礎能力。</li>
+            <li>**電腦技能:** 熟練使用 MS Office。</li>
+            <li>**衛生與安全:** 具備實務操作經驗。</li>
+            <li>**時間管理:** 擅長優化兼職工作時間。</li>
+        </ul>
+    </div>
+    
+    <div class="right-column">
+        <header class="header">
+            <h1>葉 秋 玄</h1>
+        </header>
+
+        <section id="objective">
+            <h2>求職目標</h2>
+            <p>尋求醫療或行政領域的實習/辦公室職位，以應用健康產業管理學的專業知識。目標是發展行政管理、標準化流程能力，並以個人服務經驗中的細心與責任感貢獻於機構運作。</p>
+        </section>
+
+        <section id="education">
+            <h2>教育背景</h2>
+            <div class="item-header">
+                <span class="item-title">大一新生 - 健康產業管理學系</span>
+                <span class="date">2024 年 – 至今</span>
+            </div>
+            <p>亞洲大學 (Asia University)</p>
+        </section>
+
+        <section id="experience">
+            <h2>工作經驗</h2>
+            <div>
+                <div class="item-header">
+                    <span class="item-title">麵包店助理 (兼職人員)</span>
+                    <span class="date">2023 年 06 月 – 2024 年 06 月</span>
+                </div>
+                <p>某麵包店 (某麵包店)</p>
+                <ul>
+                    <li>嚴格執行食品衛生和安全規範，此經驗可應用於醫療環境中的規範管理。</li>
+                    <li>協助銷售，與顧客溝通並解決基本問題，培養服務意識與溝通技巧。</li>
+                    <li>管理原物料庫存並有效組織工作空間。</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</div>
+
+</body>
+</html>
